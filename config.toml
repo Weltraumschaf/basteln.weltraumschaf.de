@@ -1,0 +1,49 @@
+# Docu of all options: https://gohugo.io/getting-started/configuration/#all-configuration-settings
+baseURL = "https://bastel.weltraumschaf.de/"
+languageCode = "en-us"
+title = "Das Weltraumschaf bastelt"
+theme = "hugo-notepadium"
+copyright = "<a href='https://www.weltraumschaf.de/impressum.html'>Impressum / Contact</a> – © 2020 Sven Strittmatter"
+enforce_ssl = true
+# Exclude pages with draft status of true
+builddrafts = false
+# Turns relative urls into absolute urls
+canonifyurls = true
+disablePathToLower = true
+# https://www.webpagefx.com/tools/emoji-cheat-sheet/
+enableEmoji = true
+enableGitInfo = true
+enableRobotsTXT = true
+
+# Language setting of the site, for language configuration see
+#  https://gohugo.io/content-management/multilingual/
+# There are only a few strings which need to be translated, feel free to add more
+# languages.
+defaultContentLanguage = "en"
+
+[markup.highlight]
+codeFences = true
+noClasses = false
+
+[markup.goldmark.renderer]
+unsafe = true  # enable raw HTML in Markdown
+
+[params]
+style = "dark"
+dateFormat = "2. January 2006"
+logo = "/img/avatar.jpg"
+slogan = "Heimwerken, Garten & Basteln"
+fullRss = true
+description = "Ich und mein Holz."
+
+[params.nav]
+showCategories = true
+showTags = false
+
+[[params.nav.custom]]
+title = "Projekte"
+url = "/projects/"
+
+[[params.nav.custom]]
+title = "Über mich"
+url = "/about/"
