@@ -10,8 +10,7 @@ toc: true
 comments: false
 justify: false  # text-align: justify;
 single: false  # display as a single page, hide navigation on bottom, like as about page.
-license: 'Published under the <a href="https://www.weltraumschaf.de/the-beer-ware-license.txt">THE BEER-WARE LICENSE</a>.'
+license: 'Veröffentlicht unter der <a href="https://www.weltraumschaf.de/the-beer-ware-license.txt">THE BEER-WARE LICENSE</a>.'
 authors: Sven Strittmatter
 draft: true
 ---
-
