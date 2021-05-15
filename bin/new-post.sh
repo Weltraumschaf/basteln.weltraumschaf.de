@@ -12,7 +12,7 @@ if [ $# = 0 ]; then
 fi
 
 # https://github.com/nickjj/title-case-converter
-title=$(tcc "${*}")
+title="${*}"
 filename="${title// /-}.md"
 
 echo "Title:    ${title}"
