@@ -3,7 +3,7 @@ baseURL = "https://bastel.weltraumschaf.de/"
 languageCode = "en-us"
 title = "Das Weltraumschaf bastelt"
 theme = "hugo-notepadium"
-copyright = "<a href='https://www.weltraumschaf.de/impressum.html'>Impressum / Contact</a> – © 2020 Sven Strittmatter"
+copyright = "<a href='https://www.weltraumschaf.de/impressum.html'>Impressum/Contact</a> – © 2021 Sven Strittmatter"
 enforce_ssl = true
 # Exclude pages with draft status of true
 builddrafts = false
